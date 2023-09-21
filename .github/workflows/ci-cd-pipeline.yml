@@ -42,7 +42,7 @@ jobs:
           details: Lint Cancelled!
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
       - name: Build
-        run: npm run build-client
+        run: npm run build-client-production
   skip_check:
     runs-on: ubuntu-20.04
     steps:

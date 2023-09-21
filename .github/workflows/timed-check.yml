@@ -1,7 +1,4 @@
 on:
-  push:
-    branches:
-      - '*'
   schedule:
     - cron: '* 1 * * *'
 
@@ -16,4 +13,4 @@ jobs:
         with:
           url: https://own-build-ci-cd.onrender.com/api/health
           max-attempts: 3
-          retry-delay: 10s
+          retry-delay: 15s
