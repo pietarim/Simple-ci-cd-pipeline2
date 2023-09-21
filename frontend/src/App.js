@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div>
-      <h2 style={{ color: 'red' }}>Phonebook</h2>
+      <h2 style={{ color: '#ffcc66' }}>Phonebook</h2>
       <Notification message={message} type={type} />
       <Filter filter={filter} handleFilterChange={handleFilterChange} />
       <h2>add a new</h2>
